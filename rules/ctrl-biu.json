@@ -1,0 +1,29 @@
+{
+  "description": "PC-Style CTRL+B/I/U",
+  "manipulators": [
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "b", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "b", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "i", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "i", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "u", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "u", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    }
+  ]
+}

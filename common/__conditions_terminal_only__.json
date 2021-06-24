@@ -1,0 +1,13 @@
+[
+  {
+    "bundle_identifiers": [
+      "^com\\.googlecode\\.iterm2$",
+      "^com\\.apple\\.Terminal$",
+      "^co\\.zeit\\.hyperterm$",
+      "^co\\.zeit\\.hyper$",
+      "^io\\.alacritty$",
+      "^net\\.kovidgoyal\\.kitty$"
+    ],
+    "type": "frontmost_application_if"
+  }
+]

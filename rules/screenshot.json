@@ -1,0 +1,21 @@
+{
+  "description": "PC-Style screenshot into clipboard (prtsc for whole, shift+prtsc for select)",
+  "manipulators": [
+    {
+      "conditions": "__conditions_except_vms_vnc__",
+      "from": {"key_code": "print_screen", "modifiers": {"optional": ["any"]}},
+      "to": [
+        {"key_code": "3", "modifiers": ["left_command", "left_control", "left_shift"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_except_vms_vnc__",
+      "from": {"key_code": "print_screen", "modifiers": {"mandatory": ["shift"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "4", "modifiers": ["left_command", "left_control", "left_shift"]}
+      ],
+      "type": "basic"
+    }
+  ]
+}

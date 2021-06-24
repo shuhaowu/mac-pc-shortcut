@@ -1,0 +1,29 @@
+{
+  "description": "PC-Style CTRL+S/N/O",
+  "manipulators": [
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "s", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "s", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "n", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "n", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "o", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "o", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    }
+  ]
+}

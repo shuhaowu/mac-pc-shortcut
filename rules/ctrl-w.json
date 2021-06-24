@@ -1,0 +1,13 @@
+{
+  "description": "PC-Style CTRL+W",
+  "manipulators": [
+    {
+      "conditions": "__conditions_default_exceptions__",
+      "from": {"key_code": "w", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "w", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    }
+  ]
+}

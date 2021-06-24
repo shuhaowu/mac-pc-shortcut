@@ -1,0 +1,111 @@
+{
+  "description": "PC-Style web browser",
+  "manipulators": [
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "r", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "r", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "f5", "modifiers": {"optional": ["any"]}},
+      "to": [
+        {"key_code": "r", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "r", "modifiers": {"mandatory": ["control", "left_shift"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "r", "modifiers": ["left_command", "left_shift"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "f5", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "r", "modifiers": ["left_command", "left_shift"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "t", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "t", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "p", "modifiers": {"mandatory": ["control", "shift"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "p", "modifiers": ["left_command", "left_shift"]}
+      ],
+      "type": "basic"
+    },
+
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "hyphen", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "hyphen", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "equal_sign", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "equal_sign", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "0", "modifiers": {"mandatory": ["control"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "0", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "left_arrow", "modifiers": {"mandatory": ["option"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "left_arrow", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"key_code": "right_arrow", "modifiers": {"mandatory": ["option"], "optional": ["any"]}},
+      "to": [
+        {"key_code": "right_arrow", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"pointing_button": "button4"},
+      "to": [
+        {"key_code": "left_arrow", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_browsers_only__",
+      "from": {"pointing_button": "button5"},
+      "to": [
+        {"key_code": "right_arrow", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    }
+  ]
+}

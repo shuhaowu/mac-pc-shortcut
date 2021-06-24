@@ -1,0 +1,45 @@
+{
+  "description": "GNOME-terminal-style home, end, copy, paste, and new tab",
+  "manipulators": [
+    {
+      "conditions": "__conditions_terminal_only__",
+      "from": {"key_code": "home", "modifiers": {"optional": ["any"]}},
+      "to": [
+        {"key_code": "a", "modifiers": ["left_control"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_terminal_only__",
+      "from": {"key_code": "end", "modifiers": {"optional": ["any"]}},
+      "to": [
+        {"key_code": "e", "modifiers": ["left_control"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_terminal_only__",
+      "from": {"key_code": "c", "modifiers": {"mandatory": ["control", "shift"]}},
+      "to": [
+        {"key_code": "c", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_terminal_only__",
+      "from": {"key_code": "v", "modifiers": {"mandatory": ["control", "shift"]}},
+      "to": [
+        {"key_code": "v", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": "__conditions_terminal_only__",
+      "from": {"key_code": "t", "modifiers": {"mandatory": ["control", "shift"]}},
+      "to": [
+        {"key_code": "t", "modifiers": ["left_command"]}
+      ],
+      "type": "basic"
+    }
+  ]
+}
