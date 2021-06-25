@@ -1216,6 +1216,9 @@
         "from": {
           "key_code": "print_screen",
           "modifiers": {
+            "mandatory": [
+              "shift"
+            ],
             "optional": [
               "any"
             ]
@@ -1223,7 +1226,7 @@
         },
         "to": [
           {
-            "key_code": "3",
+            "key_code": "4",
             "modifiers": [
               "left_command",
               "left_control",
@@ -1265,9 +1268,6 @@
         "from": {
           "key_code": "print_screen",
           "modifiers": {
-            "mandatory": [
-              "shift"
-            ],
             "optional": [
               "any"
             ]
@@ -1275,7 +1275,7 @@
         },
         "to": [
           {
-            "key_code": "4",
+            "key_code": "3",
             "modifiers": [
               "left_command",
               "left_control",
